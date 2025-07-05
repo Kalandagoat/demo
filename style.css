@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #002147;
+  background-color: #002147; /* Navy Blue */
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -14,7 +14,7 @@ header {
 
 .tagline {
   font-style: italic;
-  color: #b0c4de;
+  color: #d4af37; /* Subtle gold tone */
 }
 
 nav {
@@ -40,6 +40,11 @@ nav a {
   font-weight: bold;
   padding: 1rem;
   display: block;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #d4af37;
 }
 
 section {
@@ -74,6 +79,11 @@ button {
   padding: 0.75rem;
   cursor: pointer;
   font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #001432;
 }
 
 footer {
